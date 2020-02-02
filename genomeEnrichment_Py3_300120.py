@@ -13,10 +13,10 @@ import scipy.stats as ss
 print(datetime.now())
 
 #The GWAS data should be in the format chromosomenumber:baseposition [tab] p-value (3:476672   0.034)
-#example  specify_GWAS_file = "GIANT_EUR_Ancestry_BMI_2015.tabular"
+#example  specify_GWAS_file = "test_GWAS.tabular"
 
 specify_bed_file = "HumanForebrainVISTA+500bp_noOverlappingenhancers.bed"
-specify_GWAS_file = "GIANT_EUR_Ancestry_BMI_2015.tabular"
+specify_GWAS_file = "test_GWAS.tabular"
 name_of_resultfile_for_tested_elements = "SNP_associations_in_bed_file_elements.txt"
 name_of_resultfile_for_permutation = "Permutationresults.txt"
 zscore_of_tested_elements = "TotalZscore_of_tested_elements.txt"
